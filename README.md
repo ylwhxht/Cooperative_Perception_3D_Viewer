@@ -3,6 +3,9 @@ This project was developed to provide a multi-agent 3D visualization tool for co
 
 本项目旨在为协同感知三维目标检测任务提供多智能体3D可视化工具。
 
+<p align="center">
+<img src="./images/demo.gif", width="1000">
+</p>
 
 ## Installation
 1. Install python3.9
