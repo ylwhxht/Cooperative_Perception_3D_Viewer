@@ -11,7 +11,7 @@ This project was developed to provide a multi-agent 3D visualization tool for co
 1. Install python3.9
 2. Install required environment
 ```
-pip install numpy==1.21.1 vedo==2021.0.7 vtk==9.4.1 opencv-python==4.6.0.66 matplotlib shapely tensorflow pyyaml -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install numpy==1.21.1 vedo==2021.0.7 vtk==9.0.2 opencv-python==4.6.0.66 matplotlib shapely tensorflow pyyaml -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install torch==1.11.0+cpu torchvision==0.12.0+cpu torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 3. Clone this depository
