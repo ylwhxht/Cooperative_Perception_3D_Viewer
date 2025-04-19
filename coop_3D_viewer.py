@@ -59,9 +59,5 @@ if __name__ == '__main__':
             idx = permu[i]
             vi.add_points(lpc[idx][:, :3], scatter_filed=lpc[idx][:, 2], radius=3)
             vi.add_points(rpc[idx][:, :3], scatter_filed=rpc[idx][:, 2], radius=7)
-            vi.add_3D_boxes(boxes[idx], color='red', show_corner_spheres=False, show_heading=False, line_width=4)
-
-        for i in range(num_agent):
-            idx = permu[i]
-            vi.add_3D_boxes(boxes[idx], color='red', show_corner_spheres=False, show_heading=False, line_width=4)
+            vi.add_3D_boxes(boxes[idx], color='red', line_width=4)
         vi.show_3D()
